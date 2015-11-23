@@ -240,4 +240,4 @@
     } else {
         this.localforageSetItems = localforageSetItems;
     }
-}).call(window);
+}).call(typeof window !== 'undefined' ? window : (typeof self !== 'undefined' ? self : {}));
